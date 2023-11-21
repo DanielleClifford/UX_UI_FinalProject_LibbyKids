@@ -2,16 +2,33 @@
 
 Fonts for Project: 
 
-Lato: 
+Roboto Slab: 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-font-family: 'Lato', sans-serif;*/
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Young+Serif&display=swap" rel="stylesheet">
+*/
 
 /*  */
-
+.navbar-brand img{
+    width: 20vw;
+    margin: 10px;
+    margin: 0 0 0 30px;
+}
+.navbar {
+    box-shadow: 0 3px 6px 0 #d6d6d6;
+    display: flex;
+}
+.nav-item {
+    font-family: 'ABeeZee', sans-serif;
+    font-style: bold;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
 /*  */
 
 /* Font styling for full page */
-
+h1 {
+    font-family: 'Roboto Slab', serif; 
+}
 /* Footer */
