@@ -48,19 +48,59 @@ font-family: 'ABeeZee', sans-serif;
 
 /*Head 1*/
 .head1 {
-    margin: 10px;
+    margin: 2vw;
     background-color: #F2C14E;
     display: flex;
 }
 .head-info {
     width: 80%;
+    margin: 1vw;
 }
 .gettingstarted {
     width: 20%;
+    margin: 1vw;
+    margin-right: 2vw;
 }
+.gettingstarted img {
+    width: 20vw;
+}
+.appstores img{
+    width: 15vw;
+    padding: 1vw;
+}
+
 
 /* Font styling for full page */
 h1 {
     font-family: 'Roboto Slab', serif; 
 }
+p {
+    font-family: 'ABeeZee',sans-serif;
+}
+
 /* Footer */
+.footer1 img {
+    width: 20vw;
+}
+.footer2 img {
+    width: 15vw;
+    padding: 1vw;
+}
+.footer2 {
+    padding: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    padding: 10px;
+    padding: 0 0 0 30px;
+    background: #6C1135;
+}
+.footercute {
+    padding: 2vw;
+    background-color: #00B3A8;
+}
+footer p {
+    color: white;
+}
