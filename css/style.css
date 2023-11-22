@@ -104,3 +104,46 @@ footer {
 footer p {
     color: white;
 }
+
+
+
+.radial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radialItem {
+    padding: 5vw;
+    text-align: center;
+}
+
+.radialItem img{
+    width: 20vw;
+    border: 1vh solid rgba(250, 250, 250, 20);
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.section2Text {
+    width: 50vw;
+    padding-left: 4vw;
+    
+}
+
+.section2IMG {
+    padding-left: 24vw;
+}
+
+.section2IMG img {
+    width: 20vw;
+    border: 1vh solid rgba(250, 250, 250, 20);
+
+}
+
