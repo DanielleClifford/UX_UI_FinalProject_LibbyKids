@@ -56,6 +56,10 @@ font-family: 'ABeeZee', sans-serif;
     width: 80%;
     margin: 1vw;
 }
+.downloadtoday {
+    display: flex;
+    background-color: #00B3A8;
+}
 .gettingstarted {
     width: 20%;
     margin: 1vw;
@@ -65,10 +69,29 @@ font-family: 'ABeeZee', sans-serif;
     width: 20vw;
 }
 .appstores img{
-    width: 15vw;
+    width: 10vw;
     padding: 1vw;
 }
+.appstores {
+    justify-content: center;
+}
+.downloadtoday {
+    padding: 2vw;
+}
 
+.jumbotron img {
+    width: 20vw;
+}
+.readwithlibby {
+    padding: 2vw;
+}
+.jumbotron1 img {
+    width: 100%;
+}
+.jumbotron1 {
+    align-items: center;
+    text-align: center;
+}
 
 /* Font styling for full page */
 h1 {
@@ -76,6 +99,10 @@ h1 {
 }
 p {
     font-family: 'ABeeZee',sans-serif;
+}
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: medium;
 }
 
 /* Footer */
