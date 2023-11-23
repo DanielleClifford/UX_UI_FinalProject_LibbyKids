@@ -36,6 +36,9 @@ font-family: 'ABeeZee', sans-serif;
     align-items: center;
     justify-content: center;
 }
+.nav-item a {
+    color: black;
+}
 .container-fluid {
     display: flex;
     align-items: end;
