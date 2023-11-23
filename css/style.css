@@ -49,7 +49,7 @@ font-family: 'ABeeZee', sans-serif;
     margin-right: 100px;
 }
 
-/*Head 1*/
+/*Get the App Page*/
 .head1 {
     margin: 2vw;
     background-color: #F2C14E;
@@ -81,7 +81,6 @@ font-family: 'ABeeZee', sans-serif;
 .downloadtoday {
     padding: 2vw;
 }
-
 .jumbotron img {
     width: 20vw;
 }
@@ -93,8 +92,7 @@ font-family: 'ABeeZee', sans-serif;
 }
 .jumbotron1 {
     align-items: center;
-    text-align: center;
-}
+    text-align: center;}
 
 /* Font styling for full page */
 h1 {
@@ -107,6 +105,8 @@ h2 {
     font-family: 'Roboto Slab', serif;
     font-size: medium;
 }
+h3 {font-family: 'Roboto Slab', serif;
+    font-size: small;}
 
 /* Footer */
 .footer1 img {
@@ -136,23 +136,34 @@ footer p {
 }
 
 
-
+/*Features Page*/
+.displayfeatures {
+    text-align: center;
+    padding: 2vw;
+}
 .radial {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .radialItem {
     padding: 5vw;
     text-align: center;
 }
-
+.radialItem1 {
+    padding: 2vw;
+}
+.radialItem1 h2 {
+    background-color: #F2C14E;
+}
+.radialItem1 p {
+    background-color: #00B3A8;
+    padding: 1vw;
+}
 .radialItem img{
     width: 20vw;
     border: 1vh solid rgba(250, 250, 250, 20);
 }
-
 .section2 {
     display: flex;
     align-items: center;
@@ -160,20 +171,19 @@ footer p {
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
-
 .section2Text {
     width: 50vw;
     padding-left: 4vw;
-    
 }
-
 .section2IMG {
     padding-left: 24vw;
 }
-
 .section2IMG img {
     width: 20vw;
     border: 1vh solid rgba(250, 250, 250, 20);
-
 }
 
+/*Getting Started Page*/
+.getstartedsection1 {
+    padding: 2vw;
+}
