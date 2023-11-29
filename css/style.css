@@ -159,7 +159,6 @@ footer p {
 .divider1 {margin-bottom: 1vw;}
 .radialItem img{
     width: 20vw;
-    border: 1vh solid rgba(250, 250, 250, 20);
 }
 .section2 {
     display: flex;
@@ -169,18 +168,64 @@ footer p {
     padding-bottom: 10vh;
 }
 .section2Text {
-    width: 50vw;
+    width: 30vw;
     padding-left: 4vw;
 }
 .section2IMG {
-    padding-left: 24vw;
+    padding-left: 20vw;
 }
 .section2IMG img {
-    width: 20vw;
-    border: 1vh solid rgba(250, 250, 250, 20);
+    width: 40vw;
 }
 
 /*Getting Started Page*/
 .getstartedsection1 {
+    padding: 2vw;
+    text-align: center;
+}
+.librarycard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.librarycard h1 {
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #00B3A8;
+    border-radius: 100px;
+}
+.librarycard h3 {
+    padding: 1vw;
+}
+.librarycard img {
+    height: 20vw;
+    padding: 2vw;
+}
+
+.librarycard2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: #F2C14E;
+    padding: 1vw;
+}
+.librarycard2 h1 {
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #00B3A8;
+    border-radius: 100px;
+}
+.librarycard2 h3 {
+    padding: 1vw;
+}
+.yay img {
+    width: 40vw;
     padding: 2vw;
 }
